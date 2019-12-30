@@ -8,10 +8,8 @@ def key_for_min_value(hash)
     min = 1
   hash.collect do |key,value|
   
-   if min_value == nil || min_value < value
+   #if min_value == nil || min_value < value
     
 end
 end
-end
 
-key_for_min_value(hash)
