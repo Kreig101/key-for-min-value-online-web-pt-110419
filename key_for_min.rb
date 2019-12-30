@@ -9,7 +9,7 @@ def key_for_min_value(hash)
     low_value = nil
     
   hash.collect do |key,value|
-  binding.pry
+  #binding.pry
    if low_value == nil 
      low_key = key
      low_value = value
