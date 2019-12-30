@@ -4,12 +4,12 @@
  require 'pry'
  
 def key_for_min_value(hash)
-    binding.pry
+    
     low_key = nil
     low_value = nil
     
   hash.collect do |key,value|
-  
+  binding.pry
    #if min_value == nil || min_value < value
     
 end
