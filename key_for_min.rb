@@ -10,7 +10,11 @@ def key_for_min_value(hash)
     
   hash.collect do |key,value|
   binding.pry
-   #if min_value == nil || min_value < value
+   if low_value == nil 
+     low_key = key
+     low_value = value
+   else
+     
     
 end
 end
